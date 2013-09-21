@@ -20,8 +20,14 @@ GIT
 		-a  -- 
 		-m  -- means message 
 
-- проверяем измененич
+- проверяем изменения
 	>git log
 
-- просмотр разницы между файлами
+- просмотр разницы между файлами перед комитом
 	>git diff
+
+- добавляем указание на удаленный репозиторий
+	>git remote add origin https://github.com/fourMornings/temp.git
+
+- отправляем мастер на удаленный репозиторий
+	>git push -u origin master
