@@ -14,3 +14,5 @@ GIT
 - делаем комит			>git commit -a -m"Init"
 					-a  -- 
 					-m  -- means message 
+
+- проверяем измененич 		>git log
